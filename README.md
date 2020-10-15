@@ -10,8 +10,8 @@
 <p align="left">
 <h3 align="left">Connect with me:</h3>
 <a href="https://linkedin.com/in/oskari-peltonen" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="oskari-peltonen" height="30" width="40" /></a>
-<a href="https://instagram.com/obpfin" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="obpfin" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/obptube" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="obptube" height="30" width="40" /></a>
+<a href="https://instagram.com/obp_fi" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="obp_fi" height="30" width="40" /></a>
+<a href="https://www.youtube.com/obptube" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="obptube" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
