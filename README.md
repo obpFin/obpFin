@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=obpfin" alt="obpfin" /></a> </p>
 
-- 📫 How to reach me **oskari.peltonen@outlook.com**
+📫 How to reach me: **oskari.peltonen@outlook.com**
 
 <p align="left">
 <h3 align="left">Connect with me:</h3>
