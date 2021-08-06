@@ -108,6 +108,9 @@ alias reps="cd ~/Repositories"
 alias ericsson="cd ~/Repositories/ericsson"
 alias pj="cat package.json"
 
+# Functions
+function pj { echo "$( cat package.json | grep -A 10 '"scripts":' )" }
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
