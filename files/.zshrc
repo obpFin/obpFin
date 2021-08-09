@@ -94,6 +94,9 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# Default editor
+export EDITOR='nano'
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -105,10 +108,16 @@ alias ohmyzsh="nano ~/.oh-my-zsh"
 alias sourceme="source ~/.zshrc"
 alias cl="clear"
 alias reps="cd ~/Repositories"
-alias ericsson="cd ~/Repositories/ericsson"
-alias pj="cat package.json"
 
-# Functions
+# Projects
+alias ericsson="cd ~/Repositories/ericsson"
+
+# Tmux
+alias tmuxconf="nano ~/.tmux.conf"
+alias mux=tmuxinator
+alias killmux="pkill -f tmux"
+
+# Get npm scripts
 function pj { echo "$( cat package.json | grep -A 10 '"scripts":' )" }
 
 export NVM_DIR="$HOME/.nvm"
@@ -117,4 +126,3 @@ export NVM_DIR="$HOME/.nvm"
 
 # Postgres
 export PATH="/Applications/Postgres.app/Contents/Versions/13/bin:$PATH"
-
