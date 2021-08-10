@@ -117,6 +117,14 @@ alias tmuxconf="nano ~/.tmux.conf"
 alias mux=tmuxinator
 alias killmux="pkill -f tmux"
 
+#Git
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit -m"
+alias gf="git fetch"
+alias gp="git pull"
+alias gs="git status"
+
 # Get npm scripts
 function pj { echo "$( cat package.json | grep -A 10 '"scripts":' )" }
 
