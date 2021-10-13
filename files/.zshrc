@@ -97,11 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # Default editor
 export EDITOR='nano'
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
 # Misc aliases
 alias zshrc="nano ~/.zshrc"
 alias ohmyzsh="nano ~/.oh-my-zsh"
@@ -117,13 +112,18 @@ alias tmuxconf="nano ~/.tmux.conf"
 alias mux=tmuxinator
 alias killmux="pkill -f tmux"
 
-#Git
+# Git
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit -m"
 alias gf="git fetch"
 alias gp="git pull"
 alias gs="git status"
+
+# MongoDB
+alias mongod-start="brew services run mongodb-community"
+alias mongod-status="brew services list"
+alias mongod-stop="brew services stop mongodb-community"
 
 # Get npm scripts
 function pj { echo "$( cat package.json | grep -A 10 '"scripts":' )" }
